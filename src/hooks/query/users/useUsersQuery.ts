@@ -5,7 +5,6 @@ import {
   type UseQueryOptions,
 } from "@tanstack/react-query";
 import userApi from "src/lib/api/userApi";
-import { getCompaniesListResponseSchema } from "src/types/companies/companiesList.types";
 import { getUsersListResponseSchema } from "src/types/users/usersList.types";
 
 type TQueryFnData = Awaited<ReturnType<typeof queryFn>>;
